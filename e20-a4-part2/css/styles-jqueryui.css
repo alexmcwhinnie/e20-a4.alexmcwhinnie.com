@@ -1,0 +1,42 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+    background-image: url("../images/spacebg.jpg");
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+header {
+	background-color: #fff;
+	padding: 30px;
+}
+
+#cromulon {
+	width: 200px;
+	height: 325px;
+	background-image: url("../images/cromulon.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	color: white;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+#infopanel {
+	width: 100%;
+	padding: 20px 0px 0px 30%;	
+	background-color: #333;
+	height: 60px;
+	margin: 0px 0px 20px 0px;
+}
+
+#infopanel p {
+	margin: 10px 0 0 0;
+	color: white;
+}
+
+#slider {
+	width: 40%;
+}

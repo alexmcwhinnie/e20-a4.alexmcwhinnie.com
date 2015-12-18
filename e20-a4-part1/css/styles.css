@@ -1,0 +1,142 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	text-align: center;
+}
+
+nav {
+	margin: 10px 0px 0px 0px;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1.2em;
+	margin: 0px 0px 10px 0px;
+}
+
+p {
+	margin: 0em 0em 1em 0em;
+}
+
+figcaption {
+	font-size: 0.8em;
+	font-weight: normal;
+	font-style: italic;
+	margin: 10px 0px 0px 0px;
+
+}
+
+.ui-grid-d img {
+	max-width: 100%;
+}
+
+.ui-grid-d {
+	margin: 0px 0px 30px 0px;
+}
+
+.ui-grid-d .ui-block-a,
+.ui-grid-d .ui-block-b,
+.ui-grid-d .ui-block-c,
+.ui-grid-d .ui-block-d,
+.ui-grid-d .ui-block-e,
+.ui-grid-d .ui-block-f {
+	padding: 2px;
+}
+
+
+.ui-grid-a .ui-block-a {
+	width: 69%;
+	margin-right: 1%
+}
+
+.ui-grid-a .ui-block-b {
+	width: 30%;
+}
+
+.ui-icon-myicon:after {
+	background-image:url("images/icon_feather.png") !important;
+	background-size:18px 18px !important;
+}
+
+.swipeLeft {
+	background-color: pink;
+}
+.swipeRight {
+	background-color: #2a2a2a;
+}
+
+form .ui-btn-active {
+	background-color: #ff7146 !important;
+	border-color: #ff7146 !important;
+	text-shadow: none !important;
+}
+
+
+footer {
+	font-size: 0.7em;
+	font-weight: normal;
+	padding: 10px;
+}
+
+
+
+@media all and (max-width: 750px) {
+	.ui-grid-a .ui-block-a,
+	.ui-grid-a .ui-block-b {
+		width: 100%;
+		margin: 0px;
+	}
+
+	.ui-grid-d .ui-block-a,
+	.ui-grid-d .ui-block-b,
+	.ui-grid-d .ui-block-c,
+	.ui-grid-d .ui-block-d,
+	.ui-grid-d .ui-block-e{
+		width: 33%;
+		margin: 0px;
+	}
+
+
+}
+
+
+@media all and (max-width: 560px) {
+
+	nav .ui-block-a, 
+	nav .ui-block-b, 
+	nav .ui-block-c,
+	nav .ui-block-d {
+		width:100%;
+		float: none;
+	}
+
+	nav .ui-block-a, 
+	nav .ui-block-b, 
+	nav .ui-block-c,
+	nav .ui-block-d {
+		width: 100% !important;
+	}
+
+	nav a {
+		padding-right: 27px !important;
+	}
+
+	.ui-grid-d {
+		display: none;
+	}
+
+	header figure img {
+		width: 3em;
+	}
+}
+
+
+
+
+

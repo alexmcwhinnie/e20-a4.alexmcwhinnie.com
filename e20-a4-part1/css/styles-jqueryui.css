@@ -1,0 +1,38 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+header {
+	background-color: #fff;
+	padding: 30px;
+}
+
+#cromulon {
+	width: 200px;
+	height: 305px;
+	    background-image: url("../images/cromulon.png");
+	    color: white;
+}
+
+#infopanel {
+	width: 100%;
+	padding: 20px 0px 0px 30%;	
+	background-color: #333;
+	height: 100px;
+	margin: 0px 0px 20px 0px;
+}
+
+#infopanel p {
+	margin: 10px 0 0 0;
+	color: white;
+}
+
+
+#slider {
+	width: 40%;
+}
+
+body {
+    background-image: url("../images/spacebg.jpg");
+}
