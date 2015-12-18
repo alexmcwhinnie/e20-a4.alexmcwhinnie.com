@@ -29,7 +29,6 @@ figcaption {
 	font-weight: normal;
 	font-style: italic;
 	margin: 10px 0px 0px 0px;
-
 }
 
 .ui-grid-d img {
@@ -48,7 +47,6 @@ figcaption {
 .ui-grid-d .ui-block-f {
 	padding: 2px;
 }
-
 
 .ui-grid-a .ui-block-a {
 	width: 69%;
@@ -77,14 +75,11 @@ form .ui-btn-active {
 	text-shadow: none !important;
 }
 
-
 footer {
 	font-size: 0.7em;
 	font-weight: normal;
 	padding: 10px;
 }
-
-
 
 @media all and (max-width: 750px) {
 	.ui-grid-a .ui-block-a,
@@ -101,10 +96,7 @@ footer {
 		width: 33%;
 		margin: 0px;
 	}
-
-
 }
-
 
 @media all and (max-width: 560px) {
 
